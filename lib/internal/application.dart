@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../presentation/home.dart';
+import 'package:myapp/presentation/home.dart';
 
 
 class Application extends StatelessWidget {
@@ -14,7 +14,7 @@ class Application extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Home(),
+      home: const Home(),
     );
   }
 }
