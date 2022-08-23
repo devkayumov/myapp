@@ -1,4 +1,4 @@
-import '../day.dart';
+import 'package:myapp/domain/day.dart';
 
 abstract class DayRepository {
   Future<Day> getDay({
